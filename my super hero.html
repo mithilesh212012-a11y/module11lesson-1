@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Super Hero</title>
+
+    <style>
+        /*typography-font,size,weight, color for the whole page*/
+        body {
+            
+            background-color: #f00000;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        /*typography + text shadow - big bold with a orange shadow*/
+        .hero-name{
+            font: size 60px;
+            font-weight:bold;
+            text-shadow: 4px 4px hsl(34, 15%, 82%);
+        }
+        /*typography + text transform - tagline becomes title case*/
+        .tagline{
+            font-style: italic;
+            color:aqua;
+            text-transform: capitalize;
+        }
+
+        /*text tranform+ text decoration - section heading in caps with underline*/
+        .label{
+            text-transform: uppercase;
+            text-decoration: underline;
+            color:darkseagreen
+        }
+
+        /*typograpghy - power stand in bold color*/
+        .power{
+            font-weight: bold;
+            color:gold;
+        }
+
+        /*text decoration-weakness are crossed out*/
+        .weakness{
+            text-decoration: line-through;
+            color:#96f080;
+        }
+
+        /*transform-the badge is tilted to the side*/
+        .badge{
+            font: size 28px;
+            font-weight:bold;
+            color:gold;
+            transform:rotate(15deg)
+        }
+
+        /*typograpghy-footer text*/
+        .made-by{
+            color:coral;
+            font-style:italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="hero-name">thunder kid</h1>
+    <p class="tagline">the most powerful hero in the school</p>
+
+    <h2 class="label">super power</h2>
+    <p class="power">can run faster than a cheetah</p>
+    <p class="power">can lift a school bus</p>
+
+    <h2 class="label">weakness"</h2>
+    <p class="weakness">math homework</p>
+    <p class="weakness">brocoli</p>
+
+    <p class="badge">top hero</p>
+
+    <p class="made-by ">created by__________</p>
+    
+</body>
+</html>
